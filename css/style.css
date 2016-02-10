@@ -1,3 +1,39 @@
-body {
-
+body{
+    font-family: "PTSansRegular";
+    background-color: #fff;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+header{
+    background-color: #fefffe;
+    margin-top: 15px;
+}
+.top_header{
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom: 15px;
+}
+.logo.default{
+    background: url('/img/default_logo.png') no-repeat;
+    width: 233px;
+    height: 98px;
+}
+input[type=search]{
+    background: url('/img/search_icon.png') 97% no-repeat #ffffff;
+    border: 1px solid #b0b0b0;
+    border-radius: 7px;
+    width: 100%;
+    margin-top: 45px;
+    padding: 10px 17px;
+}
+input[type=search]:focus{
+    outline: none;
+}
+.right_header_content{
+    text-align: right;
+}
+.right_header_content a{
+    display: block;
+    margin-bottom: 20px;
 }
